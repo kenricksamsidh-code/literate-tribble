@@ -1,0 +1,10 @@
+.git
+node_modules
+dist
+build
+*.iso
+*.vhd
+*.vhdx
+*.img
+.vscode
+.gitignore
