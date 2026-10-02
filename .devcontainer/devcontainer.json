@@ -1,0 +1,18 @@
+{
+  "name": "literate-tribble-dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.vscode-json",
+        "GitHub.vscode-pull-request-github"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "docker --version && echo 'Codespace ready'"
+}
